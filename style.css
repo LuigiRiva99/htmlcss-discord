@@ -31,7 +31,7 @@ header .container{
 .container .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #3161E0;
+    background-color: #255EE9;
 }
 
 .nav > *{
@@ -243,8 +243,7 @@ header .nav__logo{
 }
 
 .foot {
-    justify-content: space-between;
-    background-color: #02a06b;
+    justify-content: space-between;;
 }
 
 /* style */
@@ -271,19 +270,33 @@ header .nav__logo{
 .recursive {
     padding-top: 10px;
     padding-bottom: 30px;
-    background-color: rgb(47, 47, 47);
+    background-color: #23272A;
 }
 
 .bottom {
     padding-top: 20px;
-    margin: 2px 0px;
-    background-color: rgb(47,47,47);
+    background-color: #23272A;
 }
 
-.foot__logo, .foot__button{
-    background-color: yellowgreen;
+.bottom .container {
+    border-top: 2px solid #8EA1E1;
+    padding-top: 30px;
+}
+
+.foot__button{
+    background-color: #8EA1E1;
     margin: 8px 0px;
-    padding: 2px;
+    width: fit-content;
+    border-radius: 20px;
+    border-color: #8EA1E1;
+    padding: 8px 10px;
+    color: white;
+}
+
+.foot .nav__logo{
+    height: 40px;
+    text-align: start;
+    width: auto;
 }
 
 
