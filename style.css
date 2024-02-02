@@ -124,12 +124,11 @@ header .nav__logo{
 /* TABELLA 1 e 3*/
 
 .content .box-title {
-    margin: 60px 80px;
-    margin-bottom: 20px;
+    margin: 60px 60px 20px
 }
 
 .content .box-p {
-    margin: 5px 80px;
+    margin: 5px 60px;
 }
 
 .col-60,.col-40{
@@ -151,6 +150,13 @@ header .nav__logo{
 .col-70{
     width: 70%;
 }
+
+/*tab 2*/
+.reverse .box-title,
+.reverse .box-p {
+    margin: 30px 50px;
+}
+
 .container .row,
 .container .foot,
 .top-buttons {
@@ -160,10 +166,33 @@ header .nav__logo{
 .reverse .container .row{
     flex-direction: row-reverse;
 }
-
+ 
+/* tab 4 */
 .cube {
     min-height: 700px;
-    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cube-p {
+    margin: 0px 80px;
+    text-align: center;
+}
+
+.ready {
+    font-size: 20px;
+    text-align: center;
+    min-width: 350px;
+    padding: 30px 20px;
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cube .download {
+    color: white;
+    background-color: #8EA1E1;
 }
 
 .col-25{
@@ -190,7 +219,7 @@ header .nav__logo{
     background-repeat: no-repeat;
 }
 .reverse{
-    background-color: #D3D3D3;
+    background-color: #dadada;
 }
 
 .content {
