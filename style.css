@@ -1,0 +1,175 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* layout */
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D8A31F;
+}
+
+.nav > *{
+    padding: 5px;
+}
+
+.nav .nav__login{
+    /* align-self: flex-end; */
+    text-align: end;
+}
+
+.nav__logo, 
+.nav__login{
+    width: 20%;
+}
+
+.nav__link {
+    text-align: center;
+    display: flex;
+    gap: 16px;
+}
+
+.top-box{
+    max-width: 800px;
+    min-height: 250px;
+    margin: 0 auto;
+    background-color: #b899e1;
+}
+
+.col-60,.col-40{
+    min-height: 300px;
+}
+
+.col-60{
+    width: 60%;
+    background-color: #1E90FF;
+}
+
+.col-40{
+    width: 40%;
+    background-color: rgb(0, 174, 113);
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+.container .row,
+.container .foot {
+    display: flex;
+}
+
+.reverse .container .row{
+    flex-direction: row-reverse;
+}
+
+.cube {
+    min-height: 700px;
+    background-color: salmon;
+}
+
+.col-25{
+    min-height: 350px;
+    width: 25%;
+    background-color: #058b92;
+}
+
+.foot {
+    justify-content: space-between;
+    background-color: #02a06b;
+}
+
+/* style */
+.header {
+    padding: 8px 0px;
+    background-color: #ADD8E6;
+}
+
+.top {
+    padding: 30px;
+    background-color: rgb(98, 107, 239);
+}
+.reverse{
+    background-color: #D3D3D3;
+}
+
+.content {
+    padding: 30px;
+}
+
+
+.recursive {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: rgb(47, 47, 47);
+}
+
+.bottom {
+    padding-top: 20px;
+    margin: 2px 0px;
+    background-color: rgb(47,47,47);
+}
+
+.foot__logo, .foot__button{
+    background-color: yellowgreen;
+    margin: 8px 0px;
+    padding: 2px;
+}
+
+
+/* debug */
+
+.debug .container, 
+.debug .top-box {
+    border: 2px dashed black;
+}
+
+.debug .col-25{
+    border: 2px dashed white;
+}
+
+.debug .col-30{
+    border-right: 2px dashed black;
+    background-color:#4D4FD9;
+}
+
+.debug .nav__link {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.debug .col-40 {
+    border-left: 2px dashed black;
+}
+
+.debug .reverse .container .row .col-40{
+    border-right: 2px dashed black;
+    border-left: none;
+}
+
+.debug .foot__logo, 
+.debug .foot__button{
+    border: 2px dashed black;
+}
