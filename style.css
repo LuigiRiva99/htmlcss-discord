@@ -22,19 +22,33 @@ img {
     max-width: 1000px;
 }
 
+header .container{
+    max-width: 1200px;
+}
+
 .container .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #D8A31F;
+    background-color: #3161E0;
 }
 
 .nav > *{
     padding: 5px;
+    align-self: center;
+}
+
+.nav {
+    gap: 100px;
 }
 
 .nav .nav__login{
     /* align-self: flex-end; */
     text-align: end;
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 10px;
+    background-color: white;
 }
 
 .nav__logo, 
@@ -45,7 +59,13 @@ img {
 .nav__link {
     text-align: center;
     display: flex;
-    gap: 16px;
+    gap: 50px;
+    color: white;
+}
+
+header .nav__logo{
+    width: 150px;
+    height: 40px;
 }
 
 .top-box{
@@ -104,7 +124,7 @@ img {
 /* style */
 .header {
     padding: 8px 0px;
-    background-color: #ADD8E6;
+    background-color: #3161E0;
 }
 
 .top {
